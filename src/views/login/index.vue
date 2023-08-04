@@ -1,5 +1,5 @@
 <template>
-    <div class="login">
+    <div class="login_con">
         <div class="login-main">
             <el-text size="large">用户登陆</el-text>
         </div>

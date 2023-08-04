@@ -1,13 +1,10 @@
 <script setup lang="ts">
-import Login from '@/views/login/index.vue'
 </script>
 
 <template>
-  <div>
-    <Login></Login>
+  <div class="app">
   </div>
 </template>
 
-<style scoped>
-
+<style scoped lang="less">
 </style>
