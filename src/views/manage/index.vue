@@ -1,7 +1,9 @@
 <template>
     <div class="manage_container">
         <Menu class="manage_menu"></Menu>
-        <PageHeader class="manage_main"></PageHeader>
+        <div class="manage_main">
+            <PageHeader></PageHeader>
+        </div>
     </div>
 </template>
 
