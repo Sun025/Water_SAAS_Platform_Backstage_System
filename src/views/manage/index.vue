@@ -3,6 +3,7 @@
         <Menu class="manage_menu"></Menu>
         <div class="manage_main">
             <PageHeader></PageHeader>
+            <Notice></Notice>
         </div>
     </div>
 </template>
@@ -10,6 +11,7 @@
 <script setup lang="ts">
 import Menu from './menu/index.vue'
 import PageHeader from './page-header/index.vue'
+import Notice from './notice/index.vue'
 </script>
 
 <style scoped lang="less">
@@ -24,7 +26,6 @@ import PageHeader from './page-header/index.vue'
     }
     .manage_main {
         flex: 1;
-        padding: 0 40px;
     }
 }
 </style>

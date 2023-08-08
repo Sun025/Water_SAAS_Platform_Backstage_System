@@ -3,7 +3,7 @@
         <h1>净水产品运营平台</h1>
         <div class="login">
             <LoginInfo></LoginInfo>
-            <LoginList class="login_list"></LoginList>
+            <LoginList class="login_list" v-if="false"></LoginList>
         </div>
     </div>
 </template>
@@ -23,7 +23,7 @@ import LoginList from './login-list/index.vue'
 
     .login {
         position: absolute;
-        right: 0;
+        right: 40px;
         top: 0;
 
         .login_list {
